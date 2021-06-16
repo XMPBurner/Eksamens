@@ -1,10 +1,10 @@
 #include <iostream>
-#include <string>
 #include <conio.h>
+#include <string>
 #include <stdlib.h>
 using namespace std;
 int main(){
-	string atbilde;
+	char atbilde;
 	int n=0, v=0, j1=0, j2=0, j3=0, j4=0, j5=0, j6=0, j7=0, j8=0, j9=0, j10=0;
 	
 	//1.Jautajums
@@ -20,25 +20,20 @@ int main(){
 	//nosaka vai ir atbildets pareizi vai nepareizi
 	while(n == 0){
 		cout<<"atbilde: "; 	cin>>atbilde;
-	if(atbilde == "a"){
-		cout<<"pareizi"; 	getch();
+	switch(atbilde) {
+  		case 'a':case 'A':case 'c':case 'C':
+    	cout<<"pareizi"; 	getch();
 		n++;
 		v++;
-	}else if(atbilde == "b") {
-		cout<<"nepareizi"; 	getch();
+    	break;
+  		case 'b':case 'B':case 'd':case 'D':
+    	cout<<"nepareizi"; 	getch();
 		n++;
 		j1++;
-	}else if(atbilde == "c") {
-		cout<<"pareizi"; 	getch();
-		n++;
-		v++;
-	}else if(atbilde == "d") {
-		cout<<"nepareizi"; 	getch();
-		n++;
-		j1++;
-	}else{
-		cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
-		}
+    	break;
+  		default:
+    	cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
+}
 	}
 	n=0;
 	//iztira ekranu
@@ -49,33 +44,28 @@ int main(){
 	cout<<"Kuru gramatu sarakstija Anna Sakse? \n\n";
 	
 	//Atbilzu varianti
-	cout<<"a) Pasaka par ziediem\n";
+	cout<<"a) Suna ciema Zeni\n";
 	cout<<"b) Kauja pie knipskas\n";
 	cout<<"c) Lidojums uz meness\n";
-	cout<<"d) Suna ciema Zeni\n\n";
+	cout<<"d) Pasaka par ziediem\n\n";
 	
 	//nosaka vai ir atbildets pareizi vai nepareizi
 	while(n == 0){
-		cout<<"atbilde: "; cin>>atbilde;
-	if(atbilde == "a"){
-		cout<<"pareizi"; 	getch();
+		cout<<"atbilde: "; 	cin>>atbilde;
+	switch(atbilde) {
+  		case 'c':case 'C':case 'd':case 'D':
+    	cout<<"pareizi"; 	getch();
 		n++;
 		v++;
-	}else if(atbilde == "b") {
-		cout<<"nepareizi"; 	getch();
+    	break;
+  		case 'b':case 'B':case 'a':case 'A':
+    	cout<<"nepareizi"; 	getch();
 		n++;
-		j2++;
-	}else if(atbilde == "c") {
-		cout<<"pareizi"; 	getch();
-		n++;
-		v++;
-	}else if(atbilde == "d") {
-		cout<<"nepareizi"; 	getch();
-		n++;
-		j2++;
-	}else{
-		cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
-		}
+		j1++;
+    	break;
+  		default:
+    	cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
+}
 	}
 	n=0;
 	//iztira ekranu
@@ -86,33 +76,28 @@ int main(){
 	cout<<"Kura ir ""Livu"" dziesma?	\n\n";
 	
 	//Atbilzu varianti
-	cout<<"a) Zilite				\n";
-	cout<<"b) Disnejlenda			\n";
-	cout<<"c) Cetri balti krekli	\n";
-	cout<<"d) Ziemelmeitas			\n\n";
+	cout<<"a) Zilite\n";
+	cout<<"b) Disnejlenda\n";
+	cout<<"c) Ziemelmeitas\n";
+	cout<<"d) Cetri balti krekli\n\n";
 	
 	//nosaka vai ir atbildets pareizi vai nepareizi
 	while(n == 0){
-		cout<<"atbilde: "; cin>>atbilde;
-	if(atbilde == "a"){
-		cout<<"pareizi"; 	getch();
+		cout<<"atbilde: "; 	cin>>atbilde;
+	switch(atbilde) {
+  		case 'a':case 'A':case 'd':case 'D':
+    	cout<<"pareizi"; 	getch();
 		n++;
 		v++;
-	}else if(atbilde == "b") {
-		cout<<"nepareizi"; 	getch();
+    	break;
+  		case 'b':case 'B':case 'c':case 'C':
+    	cout<<"nepareizi"; 	getch();
 		n++;
-		j3++;
-	}else if(atbilde == "c") {
-		cout<<"pareizi"; 	getch();
-		n++;
-		v++;
-	}else if(atbilde == "d") {
-		cout<<"nepareizi"; 	getch();
-		n++;
-		j3++;
-	}else{
-		cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
-		}
+		j1++;
+    	break;
+  		default:
+    	cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
+}
 	}
 	n=0;
 	//iztira ekranu
@@ -130,26 +115,21 @@ int main(){
 	
 	//nosaka vai ir atbildets pareizi vai nepareizi
 	while(n == 0){
-		cout<<"atbilde: "; cin>>atbilde;
-	if(atbilde == "a"){
-		cout<<"pareizi"; 	getch();
+		cout<<"atbilde: "; 	cin>>atbilde;
+	switch(atbilde) {
+  		case 'a':case 'A':case 'b':case 'B':
+    	cout<<"pareizi"; 	getch();
 		n++;
 		v++;
-	}else if(atbilde == "b") {
-		cout<<"pareizi"; 	getch();
+    	break;
+  		case 'c':case 'C':case 'd':case 'D':
+    	cout<<"nepareizi"; 	getch();
 		n++;
-		v++;
-	}else if(atbilde == "c") {
-		cout<<"nepareizi"; 	getch();
-		n++;
-		j4++;
-	}else if(atbilde == "d") {
-		cout<<"nepareizi"; 	getch();
-		n++;
-		j4++;
-	}else{
-		cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
-		}
+		j1++;
+    	break;
+  		default:
+    	cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
+}
 	}
 	n=0;
 	//iztira ekranu
@@ -160,33 +140,28 @@ int main(){
 	cout<<"Kura sporta veida izmanto nujas? \n\n";
 	
 	//Atbilzu varianti
-	cout<<"a) Hokejs	\n";
-	cout<<"b) Polo		\n";
-	cout<<"c) Regbijs	\n";
-	cout<<"d) Novuss	\n\n";
+	cout<<"a) Polo	\n";
+	cout<<"b) Hokejs \n";
+	cout<<"c) Regbijs\n";
+	cout<<"d) Novuss \n\n";
 	
 	//nosaka vai ir atbildets pareizi vai nepareizi
 	while(n == 0){
-		cout<<"atbilde: "; cin>>atbilde;
-	if(atbilde == "a"){
-		cout<<"pareizi"; 	getch();
+		cout<<"atbilde: "; 	cin>>atbilde;
+	switch(atbilde) {
+  		case 'b':case 'B':case 'd':case 'D':
+    	cout<<"pareizi"; 	getch();
 		n++;
 		v++;
-	}else if(atbilde == "b") {
-		cout<<"nepareizi"; 	getch();
+    	break;
+  		case 'a':case 'A':case 'c':case 'C':
+    	cout<<"nepareizi"; 	getch();
 		n++;
-		j5++;
-	}else if(atbilde == "c") {
-		cout<<"pareizi"; 	getch();
-		n++;
-		v++;
-	}else if(atbilde == "d") {
-		cout<<"nepareizi"; 	getch();
-		n++;
-		j5++;
-	}else{
-		cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
-		}
+		j1++;
+    	break;
+  		default:
+    	cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
+}
 	}
 	n=0;
 	//iztira ekranu
@@ -204,26 +179,21 @@ int main(){
 	
 	//nosaka vai ir atbildets pareizi vai nepareizi
 	while(n == 0){
-		cout<<"atbilde: "; cin>>atbilde;
-	if(atbilde == "a"){
-		cout<<"pareizi"; 	getch();
+		cout<<"atbilde: "; 	cin>>atbilde;
+	switch(atbilde) {
+  		case 'a':case 'A':case 'c':case 'C':
+    	cout<<"pareizi"; 	getch();
 		n++;
 		v++;
-	}else if(atbilde == "b") {
-		cout<<"nepareizi"; 	getch();
+    	break;
+  		case 'b':case 'B':case 'd':case 'D':
+    	cout<<"nepareizi"; 	getch();
 		n++;
-		j6++;
-	}else if(atbilde == "c") {
-		cout<<"pareizi"; 	getch();
-		n++;
-		v++;
-	}else if(atbilde == "d") {
-		cout<<"nepareizi"; 	getch();
-		n++;
-		j6++;
-	}else{
-		cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
-		}
+		j1++;
+    	break;
+  		default:
+    	cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
+}
 	}
 	n=0;
 	//iztira ekranu
@@ -234,33 +204,28 @@ int main(){
 	cout<<"Kurs ir liepajas aktieris? 	\n\n";
 	
 	//Atbilzu varianti
-	cout<<"a) Rezija Kalnina		\n";
+	cout<<"a) Gints Gravelis 		\n";
 	cout<<"b) Katrina Tatarinova	\n";
-	cout<<"c) Gints Gravelis		\n";
+	cout<<"c) Rezija Kalnina		\n";
 	cout<<"d) Girts Kesters			\n\n";
 	
 	//nosaka vai ir atbildets pareizi vai nepareizi
 	while(n == 0){
-		cout<<"atbilde: "; cin>>atbilde;
-	if(atbilde == "a"){
-		cout<<"pareizi"; 	getch();
+		cout<<"atbilde: "; 	cin>>atbilde;
+	switch(atbilde) {
+  		case 'b':case 'B':case 'c':case 'C':
+    	cout<<"pareizi"; 	getch();
 		n++;
 		v++;
-	}else if(atbilde == "b") {
-		cout<<"pareizi"; 	getch();
+    	break;
+  		case 'a':case 'A':case 'd':case 'D':
+    	cout<<"nepareizi"; 	getch();
 		n++;
-		v++;
-	}else if(atbilde == "c") {
-		cout<<"nepareizi"; 	getch();
-		n++;
-		j7++;
-	}else if(atbilde == "d") {
-		cout<<"nepareizi"; 	getch();
-		n++;
-		j7++;
-	}else{
-		cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
-		}
+		j1++;
+    	break;
+  		default:
+    	cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
+}
 	}
 	n=0;
 	//iztira ekranu
@@ -278,26 +243,21 @@ int main(){
 	
 	//nosaka vai ir atbildets pareizi vai nepareizi
 	while(n == 0){
-		cout<<"atbilde: "; cin>>atbilde;
-	if(atbilde == "a"){
-		cout<<"pareizi"; 	getch();
+		cout<<"atbilde: "; 	cin>>atbilde;
+	switch(atbilde) {
+  		case 'a':case 'A':case 'd':case 'D':
+    	cout<<"pareizi"; 	getch();
 		n++;
 		v++;
-	}else if(atbilde == "b") {
-		cout<<"nepareizi"; 	getch();
+    	break;
+  		case 'b':case 'B':case 'c':case 'C':
+    	cout<<"nepareizi"; 	getch();
 		n++;
-		j8++;
-	}else if(atbilde == "c") {
-		cout<<"nepareizi"; 	getch();
-		n++;
-		j8++;
-	}else if(atbilde == "d") {
-		cout<<"pareizi"; 	getch();
-		n++;
-		v++;
-	}else{
-		cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
-		}
+		j1++;
+    	break;
+  		default:
+    	cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
+}
 	}
 	n=0;
 	//iztira ekranu
@@ -308,33 +268,28 @@ int main(){
 	cout<<"Kura ir Latvijas upe? 	\n\n";
 	
 	//Atbilzu varianti
-	cout<<"a) Kaulinujute	\n";
+	cout<<"a) Nila 	\n";
 	cout<<"b) Abava			\n";
 	cout<<"c) Ieniseja		\n";
-	cout<<"d) Nila			\n\n";
+	cout<<"d) Kaulinujute			\n\n";
 	
 	//nosaka vai ir atbildets pareizi vai nepareizi
 	while(n == 0){
-		cout<<"atbilde: "; cin>>atbilde;
-	if(atbilde == "a"){
-		cout<<"pareizi"; 	getch();
+		cout<<"atbilde: "; 	cin>>atbilde;
+	switch(atbilde) {
+  		case 'b':case 'B':case 'd':case 'D':
+    	cout<<"pareizi"; 	getch();
 		n++;
 		v++;
-	}else if(atbilde == "b") {
-		cout<<"pareizi"; 	getch();
+    	break;
+  		case 'a':case 'A':case 'c':case 'C':
+    	cout<<"nepareizi"; 	getch();
 		n++;
-		v++;
-	}else if(atbilde == "c") {
-		cout<<"nepareizi";	getch();
-		n++;
-		j9++;
-	}else if(atbilde == "d") {
-		cout<<"nepareizi"; 	getch();
-		n++;
-		j9++;
-	}else{
-		cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
-		}
+		j1++;
+    	break;
+  		default:
+    	cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
+}
 	}
 	n=0;
 	//iztira ekranu
@@ -352,26 +307,21 @@ int main(){
 	
 	//nosaka vai ir atbildets pareizi vai nepareizi
 	while(n == 0){
-		cout<<"atbilde: "; cin>>atbilde;
-	if(atbilde == "a"){
-		cout<<"nepareizi"; 	getch();
-		n++;
-		j10++;
-	}else if(atbilde == "b") {
-		cout<<"pareizi"; 	getch();
+		cout<<"atbilde: "; 	cin>>atbilde;
+	switch(atbilde) {
+  		case 'b':case 'B':case 'c':case 'C':
+    	cout<<"pareizi"; 	getch();
 		n++;
 		v++;
-	}else if(atbilde == "c") {
-		cout<<"pareizi"; 	getch();
+    	break;
+  		case 'a':case 'A':case 'd':case 'D':
+    	cout<<"nepareizi"; 	getch();
 		n++;
-		v++;
-	}else if(atbilde == "d") {
-		cout<<"nepareizi"; 	getch();
-		n++;
-		j10++;
-	}else{
-		cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
-		}
+		j1++;
+    	break;
+  		default:
+    	cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
+}
 	}
 	n=0;
 	//iztira ekranu
@@ -444,7 +394,6 @@ int main(){
 	cout<<"6.jautajums 					\n\n";
 	cout<<"Kurs ir Liepajas diktors? 	\n\n";
 	
-	//Atbilzu varianti
 	cout<<"[+] a) Arnis Krauze			\n";
 	cout<<"[-] b) Valters Krauze		\n";
 	cout<<"[+] c) Ansis Bogustovs		\n";
@@ -455,7 +404,6 @@ int main(){
 	cout<<"7.jautajums 					\n\n";
 	cout<<"Kurs ir liepajas aktieris? 	\n\n";
 	
-	//Atbilzu varianti
 	cout<<"[+] a) Rezija Kalnina		\n";
 	cout<<"[+] b) Katrina Tatarinova	\n";
 	cout<<"[-] c) Gints Gravelis		\n";
@@ -466,7 +414,6 @@ int main(){
 	cout<<"8.jautajums 							\n\n";
 	cout<<"Kurs ir eiropas savienibas valsts? 	\n\n";
 	
-	//Atbilzu varianti
 	cout<<"[+] a) Italija	\n";
 	cout<<"[-] b) Gvatemala	\n";
 	cout<<"[-] c) Gana		\n";
@@ -477,7 +424,6 @@ int main(){
 	cout<<"9.jautajums 				\n\n";
 	cout<<"Kura ir Latvijas upe? 	\n\n";
 	
-	//Atbilzu varianti
 	cout<<"[+] a) Kaulinujute	\n";
 	cout<<"[+] b) Abava			\n";
 	cout<<"[-] c) Ieniseja		\n";
@@ -488,7 +434,6 @@ int main(){
 	cout<<"10.jautajums 						\n\n";
 	cout<<"Kura Latvijas pilseta ir tramvajs? 	\n\n";
 	
-	//Atbilzu varianti
 	cout<<"[-] a) Rezekne		\n";
 	cout<<"[+] b) Liepaja		\n";
 	cout<<"[+] c) Daugavpils	\n";
