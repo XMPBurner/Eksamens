@@ -1,6 +1,5 @@
 #include <iostream>
 #include <conio.h>
-#include <string>
 #include <stdlib.h>
 using namespace std;
 int main(){
@@ -33,7 +32,7 @@ int main(){
     	break;
   		default:
     	cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
-}
+		}
 	}
 	n=0;
 	//iztira ekranu
@@ -61,11 +60,11 @@ int main(){
   		case 'b':case 'B':case 'a':case 'A':
     	cout<<"nepareizi"; 	getch();
 		n++;
-		j1++;
+		j2++;
     	break;
   		default:
     	cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
-}
+		}
 	}
 	n=0;
 	//iztira ekranu
@@ -93,11 +92,11 @@ int main(){
   		case 'b':case 'B':case 'c':case 'C':
     	cout<<"nepareizi"; 	getch();
 		n++;
-		j1++;
+		j3++;
     	break;
   		default:
     	cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
-}
+		}
 	}
 	n=0;
 	//iztira ekranu
@@ -125,11 +124,11 @@ int main(){
   		case 'c':case 'C':case 'd':case 'D':
     	cout<<"nepareizi"; 	getch();
 		n++;
-		j1++;
+		j4++;
     	break;
   		default:
     	cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
-}
+		}
 	}
 	n=0;
 	//iztira ekranu
@@ -157,11 +156,11 @@ int main(){
   		case 'a':case 'A':case 'c':case 'C':
     	cout<<"nepareizi"; 	getch();
 		n++;
-		j1++;
+		j5++;
     	break;
   		default:
     	cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
-}
+		}
 	}
 	n=0;
 	//iztira ekranu
@@ -189,11 +188,11 @@ int main(){
   		case 'b':case 'B':case 'd':case 'D':
     	cout<<"nepareizi"; 	getch();
 		n++;
-		j1++;
+		j6++;
     	break;
   		default:
     	cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
-}
+		}
 	}
 	n=0;
 	//iztira ekranu
@@ -221,11 +220,11 @@ int main(){
   		case 'a':case 'A':case 'd':case 'D':
     	cout<<"nepareizi"; 	getch();
 		n++;
-		j1++;
+		j7++;
     	break;
   		default:
     	cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
-}
+		}
 	}
 	n=0;
 	//iztira ekranu
@@ -253,11 +252,11 @@ int main(){
   		case 'b':case 'B':case 'c':case 'C':
     	cout<<"nepareizi"; 	getch();
 		n++;
-		j1++;
+		j8++;
     	break;
   		default:
     	cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
-}
+		}
 	}
 	n=0;
 	//iztira ekranu
@@ -285,11 +284,11 @@ int main(){
   		case 'a':case 'A':case 'c':case 'C':
     	cout<<"nepareizi"; 	getch();
 		n++;
-		j1++;
+		j9++;
     	break;
   		default:
     	cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
-}
+		}
 	}
 	n=0;
 	//iztira ekranu
@@ -317,28 +316,39 @@ int main(){
   		case 'a':case 'A':case 'd':case 'D':
     	cout<<"nepareizi"; 	getch();
 		n++;
-		j1++;
+		j10++;
     	break;
   		default:
     	cout<<"\ndriks tikkai atbildet ar a,b,c vai d \n\n";
-}
+		}
 	}
 	n=0;
 	//iztira ekranu
 	system("CLS");
 	
 	cout<<"Jus esat atbildejusi uz visiem jautajumiem! \n\n";
-	if(v == 10){
+		switch(v) {
+		case 10:
 		cout<<"Vertejums "<<v<<" no 10 / Izcili!\n";
-	}else if(v == 9 || 8){
-		cout<<"Vertejums "<<v<<" no 10 / Loti labi!\n";
-	}else if(v == 7 || 6){
-		cout<<"Vertejums "<<v<<" no 10 / Labi!\n";
-	}else if(v == 5 || 4){
-		cout<<"Vertejums "<<v<<" no 10 / Pienemami!\n";
-	}else if(v == 3 || 2 || 1 || 0){
-		cout<<"Vertejums "<<v<<" no 10 / Svaki!\n";
+    	break;
+  		case 9:case 8:
+		cout<<"Vertejums "<<v<<" no 10 / Loti labi!\n\n";
+		cout<<"Zem si teksta jus varat redzet uz visiem jautajumiem kurus jus atbildejat nepareizi\nKopa ar visam pareizam atbildem, prieks tiem jautajumiem\n\n";
+    	break;
+    	case 7:case 6:
+		cout<<"Vertejums "<<v<<" no 10 / Labi!\n\n";
+		cout<<"Zem si teksta jus varat redzet uz visiem jautajumiem kurus jus atbildejat nepareizi\nKopa ar visam pareizam atbildem, prieks tiem jautajumiem\n\n";
+    	break;
+    	case 5:case 4:
+		cout<<"Vertejums "<<v<<" no 10 / Pienemami!\n\n";
+		cout<<"Zem si teksta jus varat redzet uz visiem jautajumiem kurus jus atbildejat nepareizi\nKopa ar visam pareizam atbildem, prieks tiem jautajumiem\n\n";
+    	break;
+  		case 3:case 2:case 1:case 0:
+		cout<<"Vertejums "<<v<<" no 10 / Svaki!\n\n";
+		cout<<"Zem si teksta jus varat redzet uz visiem jautajumiem kurus jus atbildejat nepareizi\nKopa ar visam pareizam atbildem, prieks tiem jautajumiem\n\n";
+    	break;
 	}
+	
 	
 	while(j1 == 1){
 	cout<<"1.jautajums 						\n\n";
@@ -354,20 +364,20 @@ int main(){
 	cout<<"2.jautajums \n\n";
 	cout<<"Kuru gramatu sarakstija Anna Sakse? \n\n";
 	
-	cout<<"[+] a) Pasaka par ziediem\n";
+	cout<<"[-] a) Suna ciema Zeni\n";
 	cout<<"[-] b) Kauja pie knipskas\n";
 	cout<<"[+] c) Lidojums uz meness\n";
-	cout<<"[-] d) Suna ciema Zeni\n\n";
+	cout<<"[+] d) Pasaka par ziediem\n\n";
 		j2--;
 	}
 	while(j3 == 1){
 	cout<<"3.jautajums 					\n\n";
 	cout<<"Kura ir ""Livu"" dziesma?	\n\n";
 	
-	cout<<"[+] a) Zilite				\n";
-	cout<<"[-] b) Disnejlenda			\n";
-	cout<<"[+] c) Cetri balti krekli	\n";
-	cout<<"[-] d) Ziemelmeitas			\n\n";
+	cout<<"[+] a) Zilite\n";
+	cout<<"[-] b) Disnejlenda\n";
+	cout<<"[-] c) Ziemelmeitas\n";
+	cout<<"[+] d) Cetri balti krekli\n\n";
 		j3--;
 	}
 	while(j4 == 1){
@@ -384,10 +394,10 @@ int main(){
 	cout<<"5.jautajums 						\n\n";
 	cout<<"Kura sporta veida izmanto nujas? \n\n";
 	
-	cout<<"[+] a) Hokejs	\n";
-	cout<<"[-] b) Polo		\n";
-	cout<<"[+] c) Regbijs	\n";
-	cout<<"[-] d) Novuss	\n\n";
+	cout<<"[-] a) Polo	\n";
+	cout<<"[+] b) Hokejs \n";
+	cout<<"[-] c) Regbijs\n";
+	cout<<"[+] d) Novuss \n\n";
 		j5--;
 	}
 	while(j6 == 1){
@@ -404,9 +414,9 @@ int main(){
 	cout<<"7.jautajums 					\n\n";
 	cout<<"Kurs ir liepajas aktieris? 	\n\n";
 	
-	cout<<"[+] a) Rezija Kalnina		\n";
+	cout<<"[-] a) Gints Gravelis 		\n";
 	cout<<"[+] b) Katrina Tatarinova	\n";
-	cout<<"[-] c) Gints Gravelis		\n";
+	cout<<"[+] c) Rezija Kalnina		\n";
 	cout<<"[-] d) Girts Kesters			\n\n";
 		j7--;
 	}
@@ -424,10 +434,10 @@ int main(){
 	cout<<"9.jautajums 				\n\n";
 	cout<<"Kura ir Latvijas upe? 	\n\n";
 	
-	cout<<"[+] a) Kaulinujute	\n";
+	cout<<"[-] a) Nila 	\n";
 	cout<<"[+] b) Abava			\n";
 	cout<<"[-] c) Ieniseja		\n";
-	cout<<"[-] d) Nila			\n\n";
+	cout<<"[+] d) Kaulinujute			\n\n";
 		j9--;
 	}
 	while(j10 == 1){
@@ -440,5 +450,4 @@ int main(){
 	cout<<"[-] d) Saldus		\n\n";
 		j10--;
 	}
-	
 }
