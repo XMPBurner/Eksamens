@@ -1,4 +1,4 @@
-# Eksamens
+# Emīls Poriķis 2PT Eksamens
 
 ## Galvenie darbi
 - [x] Darbam tiek izmatots priekšnosacijuma cikls
