@@ -7,14 +7,14 @@ int main(){
 	int n=0, v=0, j1=0, j2=0, j3=0, j4=0, j5=0, j6=0, j7=0, j8=0, j9=0, j10=0;
 	
 	//1.Jautajums
-	cout<<"1.jautajums 						\n\n";
-	cout<<"Kura sporta veida izmanto bumbu? \n\n";
-	
+	cout<<"1.jautajums\n\n";
+	cout<<"Kurs ir ievada kontroles loops?\n\n";
+		
 	//Atbilzu varianti
-	cout<<"a) Basketbols	\n";
-	cout<<"b) Dailslidosana	\n";
-	cout<<"c) Futbols		\n";
-	cout<<"d) hokejs		\n\n";
+	cout<<"a) For loop\n";
+	cout<<"b) If loop\n";
+	cout<<"c) While loop\n";
+	cout<<"d) Do-while loop\n\n";
 	
 	//nosaka vai ir atbildets pareizi vai nepareizi
 	while(n == 0){
@@ -39,14 +39,14 @@ int main(){
 	system("CLS");
 	
 	//2.Jautajums
-	cout<<"2.jautajums \n\n";
-	cout<<"Kuru gramatu sarakstija Anna Sakse? \n\n";
+	cout<<"2.jautajums\n\n";
+	cout<<"Kada veida loops eksiste?\n\n";
 	
 	//Atbilzu varianti
-	cout<<"a) Suna ciema Zeni\n";
-	cout<<"b) Kauja pie knipskas\n";
-	cout<<"c) Lidojums uz meness\n";
-	cout<<"d) Pasaka par ziediem\n\n";
+	cout<<"a) Arejas kontroles\n";
+	cout<<"b) Videjas kontroles\n";
+	cout<<"c) Exit kontroles\n";
+	cout<<"d) Ievada kontroles\n\n";
 	
 	//nosaka vai ir atbildets pareizi vai nepareizi
 	while(n == 0){
@@ -71,14 +71,14 @@ int main(){
 	system("CLS");
 	
 	//3.Jautajums
-	cout<<"3.jautajums 					\n\n";
-	cout<<"Kura ir ""Livu"" dziesma?	\n\n";
-	
+	cout<<"3.jautajums\n\n";
+	cout<<"Kam janotiek lai saktos <Endless loop>?\n\n";
+		
 	//Atbilzu varianti
-	cout<<"a) Zilite\n";
-	cout<<"b) Disnejlenda\n";
-	cout<<"c) Ziemelmeitas\n";
-	cout<<"d) Cetri balti krekli\n\n";
+	cout<<"a) Nav noteikts izbeigsanas nosacijums\n";
+	cout<<"b) Tiek izveidots <Endless loop>\n";
+	cout<<"c) Nepareizais ievaddats tika ievadits\n";
+	cout<<"d) Noraditie nosacijumi nekad neatbilst\n\n";
 	
 	//nosaka vai ir atbildets pareizi vai nepareizi
 	while(n == 0){
@@ -103,14 +103,14 @@ int main(){
 	system("CLS");
 	
 	//4.Jautajums
-	cout<<"4.jautajums 									\n\n";
-	cout<<"Kurs ir bijis latvijas valsts prezidents?	\n\n";
-	
+	cout<<"4.jautajums\n\n";
+	cout<<"Kas ir <Entry control loop>?\n\n";
+		
 	//Atbilzu varianti
-	cout<<"a) Karlis Caks		\n";
-	cout<<"b) Alberts kviesis	\n";
-	cout<<"c) Viktors zemgalis	\n";
-	cout<<"d) Imants Ziedonis	\n\n";
+	cout<<"a) Kas parbauda pirms loop izpildes\n";
+	cout<<"b) Ieprieks parbaudes cilpa\n";
+	cout<<"c) Pec parbaudes cilpa\n";
+	cout<<"d) Kas parbauda pec loop izpildes\n\n";
 	
 	//nosaka vai ir atbildets pareizi vai nepareizi
 	while(n == 0){
@@ -135,14 +135,14 @@ int main(){
 	system("CLS");
 	
 	//5.Jautajums
-	cout<<"5.jautajums 						\n\n";
-	cout<<"Kura sporta veida izmanto nujas? \n\n";
-	
+	cout<<"5.jautajums\n\n";
+	cout<<"Kas ir <Exit control loop>?\n\n";
+		
 	//Atbilzu varianti
-	cout<<"a) Polo	\n";
-	cout<<"b) Hokejs \n";
-	cout<<"c) Regbijs\n";
-	cout<<"d) Novuss \n\n";
+	cout<<"a) Ieprieks parbaudes cilpa\n";
+	cout<<"b) Kas parbauda pec loop izpildes\n";
+	cout<<"c) Kas parbauda pirms loop izpildes\n";
+	cout<<"d) Pec parbaudes cilpa\n\n";
 	
 	//nosaka vai ir atbildets pareizi vai nepareizi
 	while(n == 0){
@@ -167,14 +167,14 @@ int main(){
 	system("CLS");
 	
 	//6.Jautajums
-	cout<<"6.jautajums 					\n\n";
-	cout<<"Kurs ir Liepajas diktors? 	\n\n";
-	
+	cout<<"6.jautajums\n\n";
+	cout<<"Kas notiek kad nosacijus klust <True>?\n\n";
+		
 	//Atbilzu varianti
-	cout<<"a) Arnis Krauze			\n";
-	cout<<"b) Valters Krauze		\n";
-	cout<<"c) Ansis Bogustovs		\n";
-	cout<<"d) Kristaps Porzingis	\n\n";
+	cout<<"a) Kods sak loopu pa jaunu\n";
+	cout<<"b) Kods dodas talak\n";
+	cout<<"c) Dodas uz loop sakumu\n";
+	cout<<"d) Veidojas <Enless loop>\n\n";
 	
 	//nosaka vai ir atbildets pareizi vai nepareizi
 	while(n == 0){
@@ -199,14 +199,14 @@ int main(){
 	system("CLS");
 	
 	//7.Jautajums
-	cout<<"7.jautajums 					\n\n";
-	cout<<"Kurs ir liepajas aktieris? 	\n\n";
-	
+	cout<<"7.jautajums\n\n";
+	cout<<"Kas notiek kad nosacijus klust <False>?\n\n";
+		
 	//Atbilzu varianti
-	cout<<"a) Gints Gravelis 		\n";
-	cout<<"b) Katrina Tatarinova	\n";
-	cout<<"c) Rezija Kalnina		\n";
-	cout<<"d) Girts Kesters			\n\n";
+	cout<<"a) Kods apstajas\n";
+	cout<<"b) Loops apstajas\n";
+	cout<<"c) Dodas uz nakamo koda dalu\n";
+	cout<<"d) Sak loop pa jaunu\n\n";
 	
 	//nosaka vai ir atbildets pareizi vai nepareizi
 	while(n == 0){
@@ -231,14 +231,14 @@ int main(){
 	system("CLS");
 	
 	//8.Jautajums
-	cout<<"8.jautajums 							\n\n";
-	cout<<"Kurs ir eiropas savienibas valsts? 	\n\n";
-	
+	cout<<"8.jautajums\n\n";
+	cout<<"<While loops> atkartoti izpilda ciklu kamer nosacijums ir?\n\n";
+		
 	//Atbilzu varianti
-	cout<<"a) Italija	\n";
-	cout<<"b) Gvatemala	\n";
-	cout<<"c) Gana		\n";
-	cout<<"d) Latvija	\n\n";
+	cout<<"a) Paties\n";
+	cout<<"b) False\n";
+	cout<<"c) Nepaties\n";
+	cout<<"d) True\n\n";
 	
 	//nosaka vai ir atbildets pareizi vai nepareizi
 	while(n == 0){
@@ -263,14 +263,14 @@ int main(){
 	system("CLS");
 	
 	//9.Jautajums
-	cout<<"9.jautajums 				\n\n";
-	cout<<"Kura ir Latvijas upe? 	\n\n";
-	
+	cout<<"9.jautajums\n\n";
+	cout<<"Kurs loops ir kontrolets ar stavokli?\n\n";
+		
 	//Atbilzu varianti
-	cout<<"a) Nila 	\n";
-	cout<<"b) Abava			\n";
-	cout<<"c) Ieniseja		\n";
-	cout<<"d) Kaulinujute			\n\n";
+	cout<<"a) For loop\n";
+	cout<<"b) While loop\n";
+	cout<<"c) If loop\n";
+	cout<<"d) Do-while loop\n\n";
 	
 	//nosaka vai ir atbildets pareizi vai nepareizi
 	while(n == 0){
@@ -295,14 +295,14 @@ int main(){
 	system("CLS");
 	
 	//10.Jautajums
-	cout<<"10.jautajums 						\n\n";
-	cout<<"Kura Latvijas pilseta ir tramvajs? 	\n\n";
-	
+	cout<<"10.jautajums\n\n";
+	cout<<"Kurs loops cikla beigas parbauda nosacijumu?\n\n";
+		
 	//Atbilzu varianti
-	cout<<"a) Rezekne		\n";
-	cout<<"b) Liepaja		\n";
-	cout<<"c) Daugavpils	\n";
-	cout<<"d) Saldus		\n\n";
+	cout<<"a) For loop\n";
+	cout<<"b) Do-while loop\n";
+	cout<<"c) While loop\n";
+	cout<<"d) If loop\n\n";
 	
 	//nosaka vai ir atbildets pareizi vai nepareizi
 	while(n == 0){
@@ -351,103 +351,103 @@ int main(){
 	
 	
 	while(j1 == 1){
-	cout<<"1.jautajums 						\n\n";
-	cout<<"Kura sporta veida izmanto bumbu? \n\n";
+	cout<<"1.jautajums\n\n";
+	cout<<"Kurs ir ievada kontroles loops?\n\n";
 	
-	cout<<"[+] a) Basketbols	\n";
-	cout<<"[-] b) Dailslidosana	\n";
-	cout<<"[+] c) Futbols		\n";
-	cout<<"[-] d) hokejs		\n\n";
+	cout<<"[+] a) For loop\n";
+	cout<<"[-] b) If loop\n";
+	cout<<"[+] c) While loop\n";
+	cout<<"[-] d) Do-while loop\n\n";
 		j1--;
 	}
 	while(j2 == 1){
-	cout<<"2.jautajums \n\n";
-	cout<<"Kuru gramatu sarakstija Anna Sakse? \n\n";
+	cout<<"2.jautajums\n\n";
+	cout<<"Kada veida loops eksiste?\n\n";
 	
-	cout<<"[-] a) Suna ciema Zeni\n";
-	cout<<"[-] b) Kauja pie knipskas\n";
-	cout<<"[+] c) Lidojums uz meness\n";
-	cout<<"[+] d) Pasaka par ziediem\n\n";
+	cout<<"[-] a) Arejas kontroles\n";
+	cout<<"[-] b) Videjas kontroles\n";
+	cout<<"[+] c) Exit kontroles\n";
+	cout<<"[+] d) Ievada kontroles\n\n";
 		j2--;
 	}
 	while(j3 == 1){
-	cout<<"3.jautajums 					\n\n";
-	cout<<"Kura ir ""Livu"" dziesma?	\n\n";
+	cout<<"3.jautajums\n\n";
+	cout<<"Kam janotiek lai saktos <Endless loop>?\n\n";
 	
-	cout<<"[+] a) Zilite\n";
-	cout<<"[-] b) Disnejlenda\n";
-	cout<<"[-] c) Ziemelmeitas\n";
-	cout<<"[+] d) Cetri balti krekli\n\n";
+	cout<<"[+] a) Nav noteikts izbeigsanas nosacijums\n";
+	cout<<"[-] b) Tiek izveidots <Endless loop>\n";
+	cout<<"[-] c) Nepareizais ievaddats tika ievadits\n";
+	cout<<"[+] d) Noraditie nosacijumi nekad neatbilst\n\n";
 		j3--;
 	}
 	while(j4 == 1){
-	cout<<"4.jautajums 									\n\n";
-	cout<<"Kurs ir bijis latvijas valsts prezidents?	\n\n";
+	cout<<"4.jautajums\n\n";
+	cout<<"Kas ir <Entry control loop>?\n\n";
 	
-	cout<<"[+] a) Karlis Caks		\n";
-	cout<<"[+] b) Alberts kviesis	\n";
-	cout<<"[-] c) Viktors zemgalis	\n";
-	cout<<"[-] d) Imants Ziedonis	\n\n";
+	cout<<"[+] a) Kas parbauda pirms loop izpildes\n";
+	cout<<"[+] b) Ieprieks parbaudes cilpa\n";
+	cout<<"[-] c) Pec parbaudes cilpa\n";
+	cout<<"[-] d) Kas parbauda pec loop izpildes\n\n";
 		j4--;
 	}
 	while(j5 == 1){
-	cout<<"5.jautajums 						\n\n";
-	cout<<"Kura sporta veida izmanto nujas? \n\n";
+	cout<<"5.jautajums\n\n";
+	cout<<"Kas ir <Exit control loop>?\n\n";
 	
-	cout<<"[-] a) Polo	\n";
-	cout<<"[+] b) Hokejs \n";
-	cout<<"[-] c) Regbijs\n";
-	cout<<"[+] d) Novuss \n\n";
+	cout<<"[-] a) Ieprieks parbaudes cilpa\n";
+	cout<<"[+] b) Kas parbauda pec loop izpildes\n";
+	cout<<"[-] c) Kas parbauda pirms loop izpildes\n";
+	cout<<"[+] d) Pec parbaudes cilpa\n\n";
 		j5--;
 	}
 	while(j6 == 1){
-	cout<<"6.jautajums 					\n\n";
-	cout<<"Kurs ir Liepajas diktors? 	\n\n";
+	cout<<"6.jautajums\n\n";
+	cout<<"Kas notiek kad nosacijus klust <True>?\n\n";
 	
-	cout<<"[+] a) Arnis Krauze			\n";
-	cout<<"[-] b) Valters Krauze		\n";
-	cout<<"[+] c) Ansis Bogustovs		\n";
-	cout<<"[-] d) Kristaps Porzingis	\n\n";
+	cout<<"[+] a) Kods sak loopu pa jaunu\n";
+	cout<<"[-] b) Kods dodas talak\n";
+	cout<<"[+] c) Dodas uz loop sakumu\n";
+	cout<<"[-] d) Veidojas <Enless loop>\n\n";
 		j6--;
 	}
 	while(j7 == 1){
-	cout<<"7.jautajums 					\n\n";
-	cout<<"Kurs ir liepajas aktieris? 	\n\n";
+	cout<<"7.jautajums\n\n";
+	cout<<"Kas notiek kad nosacijus klust <False>?\n\n";
 	
-	cout<<"[-] a) Gints Gravelis 		\n";
-	cout<<"[+] b) Katrina Tatarinova	\n";
-	cout<<"[+] c) Rezija Kalnina		\n";
-	cout<<"[-] d) Girts Kesters			\n\n";
+	cout<<"[-] a) Kods apstajas\n";
+	cout<<"[+] b) Loops apstajas\n";
+	cout<<"[+] c) Dodas uz nakamo koda dalu\n";
+	cout<<"[-] d) Sak loop pa jaunu\n\n";
 		j7--;
 	}
 	while(j8 == 1){
-	cout<<"8.jautajums 							\n\n";
-	cout<<"Kurs ir eiropas savienibas valsts? 	\n\n";
+	cout<<"8.jautajums\n\n";
+	cout<<"<While loops> atkartoti izpilda ciklu kamer nosacijums ir?\n\n";
 	
-	cout<<"[+] a) Italija	\n";
-	cout<<"[-] b) Gvatemala	\n";
-	cout<<"[-] c) Gana		\n";
-	cout<<"[+] d) Latvija	\n\n";
+	cout<<"[+] a) Paties\n";
+	cout<<"[-] b) False\n";
+	cout<<"[-] c) Nepaties\n";
+	cout<<"[+] d) True\n\n";
 		j8--;
 	}
 	while(j9 == 1){
-	cout<<"9.jautajums 				\n\n";
-	cout<<"Kura ir Latvijas upe? 	\n\n";
+	cout<<"9.jautajums\n\n";
+	cout<<"Kurs loops ir kontrolets ar stavokli?\n\n";
 	
-	cout<<"[-] a) Nila 	\n";
-	cout<<"[+] b) Abava			\n";
-	cout<<"[-] c) Ieniseja		\n";
-	cout<<"[+] d) Kaulinujute			\n\n";
+	cout<<"[-] a) For loop\n";
+	cout<<"[+] b) While loop\n";
+	cout<<"[-] c) If loop\n";
+	cout<<"[+] d) Do-while loop\n\n";
 		j9--;
 	}
 	while(j10 == 1){
-	cout<<"10.jautajums 						\n\n";
-	cout<<"Kura Latvijas pilseta ir tramvajs? 	\n\n";
+	cout<<"10.jautajums\n\n";
+	cout<<"Kurs loops cikla beigas parbauda nosacijumu?\n\n";
 	
-	cout<<"[-] a) Rezekne		\n";
-	cout<<"[+] b) Liepaja		\n";
-	cout<<"[+] c) Daugavpils	\n";
-	cout<<"[-] d) Saldus		\n\n";
+	cout<<"[-] a) For loop\n";
+	cout<<"[+] b) Do-while loop\n";
+	cout<<"[+] c) While loop\n";
+	cout<<"[-] d) If loop\n\n";
 		j10--;
 	}
 }
